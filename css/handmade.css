@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {-webkit-text-size-adjust:none; word-wrap:break-word; word-break:normal; margin:0; background:#fff}
+body, input, textarea, select, p, table, div {font-size:12px; color:#000; font-family:Verdana, Arial, Helvetica, Tahoma, sans-serif}
+dd, dt, dl, p, ul, li, ol, form, input, h1, h2, h3, h4, h5, h6 {margin:0; padding:0}
+ul, ol, li {list-style-type:none; list-style-image:none}
+h1, h2, h3, h4, h5, h6 {font-weight:normal; font-style:normal}
+
+/*** share ***/
+a {
+  text-decoration:none;
+  outline:none;
+  hlbr:expression(this.onFocus=this.blur());
+	transition:0.4s
+	}
+
+a:hover {text-decoration:underline; transition:0.4s}
+
+.clear {clear:both}
+.clearfix:after {
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0
+}
+
+img {border:none; text-decoration:none}
+
+.header {width:100%; text-align:center; background:#424242}
+.books {width:780px; margin:0 auto}
+
+#menu {position:fixed; z-index:99; top:7%; right:0; width:60px}
+#menu a {display:block; margin:0 0 20px 0}
+#menu a:hover {opacity:0.7}
+#scroll {cursor:pointer}
+
+#top {width:100%; height:960px; background:url(../images/top.jpg) top center no-repeat}
+.inx {width:1003px; height:886px; margin:0 auto}
+.inx p {position:absolute; z-index:99}
+.inx p img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	}	
+.inx p img:hover {
+	-webkit-transform: scale(0.95);
+	-moz-transform: scale(0.95);
+	-o-transform: scale(0.95);
+	transform: scale(0.95);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	}
+.pp {margin:155px 0 0 275px}
+.p1 {margin:345px 0 0 160px}
+.p1_ {margin:360px 0 0 215px}
+.p2 {margin:26px 0 0 105px}
+.p3 {margin:35px 0 0 435px}
+.p4 {margin:40px 0 0 660px}
+.p5 {margin:130px 0 0 820px}
+.p6 {margin:230px 0 0 60px}
+.p7 {margin:295px 0 0 755px}
+.p7_ {margin:265px 0 0 770px}
+.p8 {margin:450px 0 0 5px}
+.p8_ {margin:400px 0 0 0}
+.p9 {margin:660px 0 0 40px}
+.p9_ {margin:670px 0 0 75px}
+
+.nav {width:1003px; margin:0 auto}
+.nav ul {height:50px}
+.nav ul li {float:left; margin:0 0 0 60px}
+.nav ul li a {display:block; width:170px; height:50px; background:url(../images/nav.png) no-repeat}
+.nav ul li a:hover {background:url(../images/nav_.png) no-repeat; transition:0.2s}
+.nav ul li a.n2 {background:url(../images/nav_02.png) no-repeat}
+.nav ul li a.n2:hover {background:url(../images/nav_02_.png) no-repeat}
+.nav ul li a.n3 {background:url(../images/nav_03.png) no-repeat}
+.nav ul li a.n3:hover {background:url(../images/nav_03_.png) no-repeat}
+.nav ul li a.n4 {width:200px; background:url(../images/nav_04.png) no-repeat}
+.nav ul li a.n4:hover {background:url(../images/nav_04_.png) no-repeat}
+
+.wrapper {width:100%; margin:0 auto; position:relative}
+
+#crazy {width:100%; background:url(../images/bg_crazy.jpg)}
+.crazy_bottom {width:100%; height:100px; background:url(../images/bg_crazy_.jpg) bottom center no-repeat}
+
+.content {width:1003px; margin:0 auto}
+.box {padding:40px 0}
+.box h1 {text-align:center; padding:0 0 40px 0}
+.ck-slide {width:1003px; height:590px; margin:0 auto; position:relative; overflow:hidden}
+.ck-slide ul.ck-slide-wrapper {width:925px; height:535px; position:absolute; top:0; left:4%; z-index:1; margin:0; padding:0}
+.ck-slide ul.ck-slide-wrapper li {position:absolute}
+.ck-slide .ck-prev, .ck-slide .ck-next {position:absolute; top:50%; z-index:2; width:20px; height:35px; margin-top:-35px; opacity:0.5; text-indent:-9999px; transition:opacity .2s linear 0s}
+.ck-slide .ck-prev {left:5px; background:url(../images/arrow-left.png) 50% no-repeat}
+.ck-slide .ck-next {right:5px; background:url(../images/arrow-right.png) 50% no-repeat}
+.ck-slidebox {position:absolute; left:50%; bottom:0; z-index:99}
+.ck-slidebox ul {height:20px; padding:0 4px}
+.ck-slidebox ul li {float:left; height:10px; margin:2px 6px}
+.ck-slidebox ul li i {display:block; width:10px; height:10px; border-radius:100%; background:#b6b6b6; text-indent:-9999px; cursor:pointer}
+.ck-slidebox ul li.current i {background:#000}
+.ck-slidebox ul li i:hover {background:#000}
+.pro {padding:40px 36px}
+.pro img, .pro a {float:left; margin:0 1px 1px 0; z-index:999}
+.line {
+  display:inline-block;
+  position:relative;
+  -webkit-transform:translateZ(0);
+  -ms-transform:translateZ(0);
+  transform:translateZ(0);
+	}
+.line:before {
+  content:'';
+  position:absolute;
+  top:-2px;
+  right:-2px;
+  bottom:-2px;
+  left:-2px;
+  -webkit-transition-duration:.5s;
+  transition-duration:.5s;
+  -webkit-transition-property:top, right, bottom, left;
+  transition-property:top, right, bottom, left;
+	}
+.line:hover:before {
+  top:2px;
+  right:2px;
+  bottom:2px;
+  left:2px;
+	border:#d23b30 solid 2px;
+	}
+
+#decent {width:100%; background:url(../images/bg_decent.jpg)}
+.decent_bottom {width:100%; height:100px; background:url(../images/bg_decent_.jpg) bottom center no-repeat}
+.line_decent:hover:before {border:#783d2b solid 2px}
+
+#dearest {width:100%; background:url(../images/bg_crazy.jpg)}
+.dearest_bottom {width:100%; height:100px; background:url(../images/bg_dearest_.jpg) bottom center no-repeat}
+.line_dearest:hover:before {border:#363e8b solid 2px}
+
+#supprise {width:100%; background:url(../images/bg_supprise.jpg)}
+.supprise_bottom {width:100%; height:100px; background:url(../images/bg_supprise_.jpg) bottom center no-repeat}
+.line_supprise:hover:before {border:#26a749 solid 2px}
+
+#footer {width:100%; padding:30px 0; background:url(../images/bg_crazy.jpg)}
+#footer p {margin:0 auto; text-align:center; line-height:30px}
+
+#mtop {display:none}
+.menu {display:none}
+
+/*** mobile ***/
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+a:hover {text-decoration:none}
+img {width:100%; height:auto}
+
+.header {position:fixed; z-index:9999; top:0; overflow:hidden}
+
+#menu {display:none}
+#top {display:none}
+
+#mtop {display:block; width:100%}
+#mtop img {width:100%; height:auto}
+
+.content {width:100%}
+.box {padding:40px 0 0 0}
+.box h1 {width:70%; margin:0 auto; padding:20px 0 40px 0}
+
+.ck-slide {width:100%; height:250px}
+.ck-slide ul.ck-slide-wrapper {width:92%}
+.ck-slide .ck-prev, .ck-slide .ck-next {width:20px; height:20px; margin-top:-35px}
+
+.pro {padding:40px 36px 0 36px}
+.pro img.im {margin:0 0 20px 0}
+.pro a {margin:0 0 20px 0}
+
+.crazy_bottom, .decent_bottom, .dearest_bottom, .supprise_bottom {height:80px}
+
+}

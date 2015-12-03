@@ -1,0 +1,1 @@
+h_jQuery = jQuery.noConflict(true);
